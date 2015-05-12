@@ -29,7 +29,7 @@
 
 #pragma mark - associated objects names
 static const char * kMapperObjectKey;
-static const char * kClassPropertiesKey;
+const char * kClassPropertiesKey;
 static const char * kClassRequiredPropertyNamesKey;
 static const char * kIndexPropertyNameKey;
 
