@@ -21,7 +21,7 @@
 #import "JSONKeyMapper.h"
 
 /////////////////////////////////////////////////////////////////////////////////////////////
-#if TARGET_IPHONE_SIMULATOR
+#if DEBUG
 #define JMLog( s, ... ) NSLog( @"[%@:%d] %@", [[NSString stringWithUTF8String:__FILE__] \
 lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
 #else
